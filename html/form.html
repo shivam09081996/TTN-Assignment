@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" href="form.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+</head>
+<body>
+	<nav>
+		<div class="logo">To The New</div>
+		<div class="nav_opts"> 
+			<a href="#">Home</a>
+			<a href="#">Quick Help</a>
+		</div>
+	</nav>
+
+<div class="form_box" >
+	<div class="form_header">Bug Report</div>
+	<div class="form_sec">
+		<form>
+			<label>Title:<sup>*</sup></label><br>
+			<input type="text" required/>
+				<br>
+			
+			<label>Description:<sup>*</sup></label><br>
+			<textarea rows="5" ></textarea> <br>
+
+			<label>Operating System:<sup>*</sup></label><br>
+			<select>
+				<option>Windows</option>
+			</select>
+
+			<label>Product:<sup>*</sup></label><br>
+			<select>
+				<option>Formoid</option>
+			</select>
+
+			<br>
+			<label>Version:<sup>*</sup></label><br>
+			<input type="text" required class="version"/>
+				<br>
+
+			<label>License:<sup>*</sup></label><br>
+			<div class="radio_btns">
+				<input type="radio" name="free">Free
+				<input type="radio" name="business">Business	
+			</div>
+
+			<label>Security:<sup>*</sup></label><br>
+			<select>
+				<option>Critical	</option>
+			</select>
+
+			<label>Attachments:<sup>*</sup></label><br>
+			<input type="file" required class="version"/>
+				<br>
+
+
+		</form>
+	</div>
+
+	<div class="form_footer">
+		<a href="#"><button>Send</button></a>
+	</div>
+</div>
+
+
+</body>
+</html>
