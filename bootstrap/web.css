@@ -1,0 +1,65 @@
+body{
+}
+
+nav{
+	color:#fff;
+}
+nav a {
+	color:#fff;
+}
+
+.bg-black{
+	background: #000;
+}
+
+.ttn-logo{
+	color:#fff;
+	margin-left:20px;
+}
+
+.page-header{
+	padding:10px 10px;
+}
+
+.bg-grey{
+	background: #eee;
+}
+
+.txt{
+	box-sizing: border-box;
+	padding:15px;
+	margin-top:30px;
+	font-size:1.2em;
+}
+
+.heading{
+	font-size:1.3rem;
+	margin-top:20px;
+	margin-left:15px;
+	padding-bottom:8px;
+	border-bottom: 1px solid #e5e4cc;
+}
+
+.gallery{
+	margin-top:30px;
+}
+
+.gallery img{
+	width: 100%;
+}
+
+footer{
+	margin-top:20px;
+	color:#fff;
+	padding:15px 0px;
+	font-size:1.2rem;
+}
+
+ul.list li{
+	display: inline;
+}
+
+
+@media screen and (max-width:700px){
+	
+}
