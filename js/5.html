@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<script>
+
+var Emp =[
+	{name:'A',age:25,salary:22000,dob:'5/8/1995'},
+	{name:'B',age:28,salary:1300,dob:'7/1/1992'},
+	{name:'C',age:23,salary:20173,dob:'12/4/1997'},
+	{name:'C',age:21,salary:900,dob:'6/6/1999'},
+	{name:'C',age:23,salary:500,dob:'6/6/1997'},
+]
+
+
+
+
+var rich=Emp.filter(i=>i.salary>5000);
+console.log(rich);
+
+var poor=Emp.filter(i=>i.salary<1000 && i.age>20);
+
+for(i in poor){
+	poor[i].salary*=5;
+}	
+
+console.log(poor);
+
+
+var ageGroup={};
+
+for(i in Emp){
+	if(ageGroup.hasOwnProperty(Emp[i].age))
+	{
+		ageGroup[Emp[i].age].push(Emp[i]);
+	}else{
+		ageGroup[Emp[i].age]=[];
+		ageGroup[Emp[i].age].push(Emp[i]);
+	}
+}
+
+console.log(ageGroup);
+
+
+
+
+</script>
+
+</body>
+</html>

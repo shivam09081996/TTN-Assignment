@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h3>Check Palindrome</h3>
+<input type="text" id="input" placeholder="String">
+<button onclick="check()">Check</button>
+
+
+</body>
+<script>
+	
+
+function check(){
+var str=document.getElementById("input").value;
+	if(str.split("").reverse().join("")==str){	
+		alert("Palindrome");
+	}else{
+		alert("Not Palindrome");
+	}
+
+}
+
+
+
+</script>
+</html>
