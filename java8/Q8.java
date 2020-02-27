@@ -1,4 +1,4 @@
-package lambdas;
+package java8;
 
 //Q9.  Implement multiple inheritance with default method inside  interface.
 interface i1

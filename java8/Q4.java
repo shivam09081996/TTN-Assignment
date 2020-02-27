@@ -1,4 +1,4 @@
-package lambdas;
+package java8;
 
 //Create an Employee Class with instance variables (String) name, (Integer)age, (String)city
 // and get the instance of the Class using constructor reference

@@ -1,4 +1,4 @@
-package lambdas;
+package java8;
 //Q3
 //Using (instance) Method reference create and apply add and
 //subtract method and using (Static) Method reference create and

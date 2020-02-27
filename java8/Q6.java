@@ -1,4 +1,4 @@
-package lambdas;
+package java8;
 
 //Q6. Create and access default and static method of an interface.
 interface demo
