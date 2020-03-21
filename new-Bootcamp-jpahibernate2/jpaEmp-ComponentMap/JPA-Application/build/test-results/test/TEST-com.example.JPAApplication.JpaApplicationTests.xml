@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.JPAApplication.JpaApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-14T08:33:34" hostname="prajjwal" time="0.088">
+  <properties/>
+  <testcase name="createEmbadedTable()" classname="com.example.JPAApplication.JpaApplicationTests" time="0.088"/>
+  <system-out><![CDATA[14:03:31.813 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:03:31.820 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:03:31.839 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.JPAApplication.JpaApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:03:31.849 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.JPAApplication.JpaApplicationTests], using SpringBootContextLoader
+14:03:31.852 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.JPAApplication.JpaApplicationTests]: class path resource [com/example/JPAApplication/JpaApplicationTests-context.xml] does not exist
+14:03:31.852 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.JPAApplication.JpaApplicationTests]: class path resource [com/example/JPAApplication/JpaApplicationTestsContext.groovy] does not exist
+14:03:31.852 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.JPAApplication.JpaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:03:31.853 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.JPAApplication.JpaApplicationTests]: JpaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:03:31.882 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.JPAApplication.JpaApplicationTests]
+14:03:31.921 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/prajjwal/Desktop/jpaEmp-ComponentMap/JPA-Application/build/classes/java/main/com/example/JPAApplication/JpaApplication.class]
+14:03:31.922 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.JPAApplication.JpaApplication for test class com.example.JPAApplication.JpaApplicationTests
+14:03:31.976 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.JPAApplication.JpaApplicationTests]: using defaults.
+14:03:31.976 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:03:31.981 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+14:03:31.988 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1df9a3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@69d0f53f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@56ba9308, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cc7856, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6c73496d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26430d1, org.springframework.test.context.event.EventPublishingTestExecutionListener@44c146, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@602a07d0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@16e41299, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@35255a2c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@134df33f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@23697201]
+14:03:31.991 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6df61c84 testClass = JpaApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@19ba54d5 testClass = JpaApplicationTests, locations = '{}', classes = '{class com.example.JPAApplication.JpaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7518dd8a, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4191c1db, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@b454486, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@76271139], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+14:03:31.999 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@6df61c84 testClass = JpaApplicationTests, testInstance = com.example.JPAApplication.JpaApplicationTests@5d9c77fa, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@19ba54d5 testClass = JpaApplicationTests, locations = '{}', classes = '{class com.example.JPAApplication.JpaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7518dd8a, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4191c1db, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@b454486, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@76271139], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+14:03:32.012 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2020-03-14 14:03:32.163  INFO 14320 --- [    Test worker] c.e.JPAApplication.JpaApplicationTests   : Starting JpaApplicationTests on prajjwal with PID 14320 (started by prajjwal in /home/prajjwal/Desktop/jpaEmp-ComponentMap/JPA-Application)
+2020-03-14 14:03:32.164  INFO 14320 --- [    Test worker] c.e.JPAApplication.JpaApplicationTests   : No active profile set, falling back to default profiles: default
+2020-03-14 14:03:32.447  INFO 14320 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-14 14:03:32.481  INFO 14320 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 1 JPA repository interfaces.
+2020-03-14 14:03:32.824  INFO 14320 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-14 14:03:32.880  INFO 14320 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-14 14:03:33.004  INFO 14320 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-14 14:03:33.083  INFO 14320 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-14 14:03:33.393  INFO 14320 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-14 14:03:33.412  INFO 14320 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+Hibernate: 
+    
+    create table employee (
+       id integer not null,
+        age integer not null,
+        fname varchar(255),
+        lname varchar(255),
+        basicsalary integer not null,
+        bonoussalary integer not null,
+        specialallowencesalary integer not null,
+        taxamount integer not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    
+    create table hibernate_sequence (
+       next_val bigint
+    ) engine=InnoDB
+Hibernate: 
+    
+    insert into hibernate_sequence values ( 1 )
+2020-03-14 14:03:33.926  INFO 14320 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-14 14:03:33.931  INFO 14320 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-14 14:03:34.203  INFO 14320 --- [    Test worker] c.e.JPAApplication.JpaApplicationTests   : Started JpaApplicationTests in 2.189 seconds (JVM running for 2.909)
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        employee
+        (age, fname, lname, basicsalary, bonoussalary, specialallowencesalary, taxamount, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
